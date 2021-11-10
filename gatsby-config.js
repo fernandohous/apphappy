@@ -18,9 +18,6 @@ module.exports = {
       __key: "images",
     },
   ],
-
-  module.exports = {
-    pathPrefix: "/apphappytest",
-  }
+  pathPrefix: "/happy",
 
 };

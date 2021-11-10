@@ -9,6 +9,7 @@ export const Logo = styled.div`
     padding: 1em;
 `
 
+
 export const PhoneOne = styled.img`
     height: 32em;
     margin-left: 5em;
@@ -53,7 +54,7 @@ export const SecondBlock = styled.div`
     font-size: 20px;
     font-family: Arial;
     width: 100%;
-    height: 100%;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;

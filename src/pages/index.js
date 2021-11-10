@@ -1,6 +1,6 @@
 import * as React from "react"
 import Zoom from 'react-reveal/Zoom';
-import {MainBlock, FirstBlock, SecondBlock, Logo, PhoneOne, mainDesc} from '../components/blocks'
+import {MainBlock, FirstBlock, SecondBlock, Logo, PhoneOne, mainDesc, SeeMore} from '../components/blocks'
 import '../styles/global.css'
 
 // markup
@@ -14,18 +14,21 @@ const IndexPage = () => {
             </Logo>
             <FirstBlock>
                 <mainDesc>
-                    <Zoom>
+                    <div class='scale-in-center'>
                         <h1>Join HappyMe community today!</h1>
                         <p>Send letters to random people, and receive and response too!</p>
                         <p>You can make someone day's better.</p>
-                        <a href="#second">Learn more!</a>
-                    </Zoom>
+                        <a href="#second" class="learnabout flip-horizontal-bottom">Learn about!</a>
+                    </div>
                 </mainDesc>
 
-                <Zoom>
+                <div class='scale-in-center'>
                     <PhoneOne src="https://cdn.pixabay.com/photo/2021/01/25/08/55/apple-iphone-12-pro-max-5947688_1280.png" />
-                </Zoom>
+                </div>
             </FirstBlock>
+            <SecondBlock>
+                <p id="second">Teste</p>
+            </SecondBlock>
         </MainBlock>
     </main>
   )
