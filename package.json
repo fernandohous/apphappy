@@ -1,0 +1,31 @@
+{
+  "name": "happy-me",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HappyMe",
+  "author": "fernandohous",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.13.3",
+    "gatsby": "^4.1.1",
+    "gatsby-plugin-image": "^2.1.1",
+    "gatsby-plugin-sharp": "^4.1.2",
+    "gatsby-plugin-sitemap": "^5.1.1",
+    "gatsby-plugin-styled-components": "^5.1.0",
+    "gatsby-source-filesystem": "^4.1.1",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-reveal": "^1.2.2",
+    "styled-components": "^5.3.3"
+  }
+}
