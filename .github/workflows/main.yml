@@ -14,4 +14,3 @@ jobs:
         with:
           access-token: ${{ secrets.apphappy }}
           deploy-branch: gh-pages
-          gatsby-args: --prefix-paths
