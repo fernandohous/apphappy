@@ -19,6 +19,6 @@ module.exports = {
     },
   ],
   
-  pathPrefix: "/apphappytest",
+  pathPrefix: "/happy",
 
 };
