@@ -1,12 +1,25 @@
 import * as React from "react"
-import {MainBlock, FirstBlock, SecondBlock, Logo, PhoneOne, mainDesc, ImgBox, DescSecBox, WhatIsAbout, FooterBox, SocialIcons } from '../components/blocks'
+
+import {
+        MainBlock, 
+        FirstBlock, 
+        SecondBlock, 
+        Logo, PhoneOne, 
+        mainDesc, 
+        ImgBox, 
+        DescSecBox, 
+        WhatIsAbout, 
+        FooterBox, 
+        SocialIcons 
+} from '../components/blocks'
+
 import '../styles/global.css'
 
 //Images imports
-import InboxImg from "../images/Mobile-inbox.png"
-import MailboxImg from "../images/Mailbox-bro.png"
-import SmileyImg from "../images/Smiley.png"
-import HappyMeLogo from "../images/HappyMeLogo.png"
+import InboxImg from "../images/inbox.png"
+import MailboxImg from "../images/mailbox.png"
+import SmileyImg from "../images/smile.png"
+import HappyMeLogo from "../images/happy.png"
 import LinkedinImg from "../images/linkedin.png"
 import GitHubImg from "../images/github.png"
 
