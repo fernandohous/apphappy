@@ -15,14 +15,6 @@ import {
 
 import '../styles/global.css'
 
-//Images imports
-import InboxImg from "../images/inbox.png"
-import MailboxImg from "../images/mailbox.png"
-import SmileyImg from "../images/smile.png"
-import HappyMeLogo from "../images/happy.png"
-import LinkedinImg from "../images/linkedin.png"
-import GitHubImg from "../images/github.png"
-
 // markup
 const IndexPage = () => {
   return (
@@ -30,7 +22,7 @@ const IndexPage = () => {
     <title>HappyMe!</title>
         <MainBlock >
             <Logo>
-                <img class="logoImg scale-in-center" src={HappyMeLogo} alt="HappyMe" />
+                <img class="logoImg scale-in-center" src="https://i.imgur.com/U9C81LW.png" alt="HappyMe" />
             </Logo>
             <FirstBlock>
                 <mainDesc>
@@ -51,25 +43,25 @@ const IndexPage = () => {
                     <h1 class="whatis">What is HappyMe?</h1>
                 </WhatIsAbout>
                 <DescSecBox>
-                    <ImgBox src={InboxImg} alt="People using cellphone"/>
+                    <ImgBox src="https://i.imgur.com/6rcrnR5.png" alt="People using cellphone"/>
                     <p class="tracking-in-expand">Join the community to make a bunch of people happy!</p>
                 </DescSecBox>
                 <DescSecBox>
-                    <ImgBox src={MailboxImg} alt="People using cellphone"/>
+                    <ImgBox src="https://i.imgur.com/f9Gwrs8.png" alt="Mailbox with paper airplane"/>
                     <p class="tracking-in-expand">You can send letters to people in the the whole world!</p>
                 </DescSecBox>
                 <DescSecBox>
-                    <ImgBox src={SmileyImg} alt="People using cellphone"/>
+                    <ImgBox src="https://i.imgur.com/XB8Wx7Q.png" alt="People happy"/>
                     <p class="tracking-in-expand">Awnser people and make them happy with positive messages</p>
                 </DescSecBox>
             </SecondBlock>
             <FooterBox>
                 <p class="whiteText">Made by: Fernando B. Barbosa</p>
                 <a href="https://github.com/ferbarbosa">
-                    <SocialIcons src={LinkedinImg} alt="Linkedin" />
+                    <SocialIcons src="https://i.imgur.com/8shpEZc.png" alt="Linkedin" />
                 </a>
                 <a href="https://github.com/ferbarbosa">
-                    <SocialIcons src={GitHubImg} alt="Github" />
+                    <SocialIcons src="https://i.imgur.com/ogjQnSk.png" alt="Github" />
                 </a>
                 <p>
                     <a class="whiteText" href="https://storyset.com/">illustrations by Storyset</a>
