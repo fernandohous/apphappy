@@ -2,6 +2,9 @@ import * as React from "react"
 import Zoom from 'react-reveal/Zoom';
 import {MainBlock, FirstBlock, SecondBlock, Logo, PhoneOne, mainDesc, SeeMore} from '../components/blocks'
 import '../styles/global.css'
+import config from 'react-reveal/globals';
+
+config({ ssrFadeout: true });
 
 // markup
 const IndexPage = () => {
