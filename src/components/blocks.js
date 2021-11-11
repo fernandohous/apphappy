@@ -38,7 +38,9 @@ export const FirstBlock = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5em;
+    padding-bottom: 9em;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
     
     @media screen and (max-width: 960px){
         flex-direction: column;
@@ -49,8 +51,8 @@ export const FirstBlock = styled.div`
 
 export const SecondBlock = styled.div`
 
-    background: rgb(253,250,102);
-    background: linear-gradient(90deg, rgba(253,250,102,1) 0%, rgba(26,192,198,1) 100%);color: #ffffff;
+    background-color: #fff;
+    color: #000;
     font-size: 20px;
     font-family: Arial;
     width: 100%;

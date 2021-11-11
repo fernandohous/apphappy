@@ -27,7 +27,12 @@ const IndexPage = () => {
                 </div>
             </FirstBlock>
             <SecondBlock>
-                <p id="second">Teste</p>
+                <img/>
+                <p id="second">Join the community</p>
+                <img/>
+                <p >Send letters to random people in the world</p>
+                <img/>
+                <p >Ge awnsers and awnser letters too!</p>
             </SecondBlock>
         </MainBlock>
     </main>
