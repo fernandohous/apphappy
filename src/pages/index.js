@@ -14,17 +14,17 @@ const IndexPage = () => {
             </Logo>
             <FirstBlock>
                 <mainDesc>
-                    <div class='scale-in-center'>
+                    <Zoom cascade>
                         <h1>Join HappyMe community today!</h1>
                         <p>Send letters to random people, and receive and response too!</p>
                         <p>You can make someone day's better.</p>
                         <a href="#second" class="learnabout flip-horizontal-bottom">Learn about!</a>
-                    </div>
+                    </Zoom>
                 </mainDesc>
 
-                <div class='scale-in-center'>
+                <Zoom>
                     <PhoneOne src="https://cdn.pixabay.com/photo/2021/01/25/08/55/apple-iphone-12-pro-max-5947688_1280.png" />
-                </div>
+                </Zoom>
             </FirstBlock>
             <SecondBlock>
                 <img/>
